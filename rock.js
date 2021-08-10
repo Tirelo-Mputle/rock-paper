@@ -89,7 +89,7 @@ playerScore;
 
 function finalScore(compScore, playerScore) {
     if (compScore > playerScore) {
-        console.log("final score: computer score is " + compScore + " player score is " + playerScore + ". COMPUTER WINS");
+        console.log("finalL score: computer score is " + compScore + " player score is " + playerScore + ". COMPUTER WINS");
     }else if(compScore < playerScore) {
         console.log("final score: computer score is " + compScore + " player score is " + playerScore + ". PLAYER WINS");
     } else if (compScore === playerScore) {

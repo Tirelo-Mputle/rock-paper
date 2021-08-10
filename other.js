@@ -29,7 +29,7 @@ function finalScore(playerScore, compScore) {
     if (playerScore > compScore) {
         alert("The game winner is: Player");
     } else if (playerScore < compScore)  {
-        alert("The game winner is: Computer");
+        alert("The game winner iss: Computer");
     } else {
         alert("It's a draw");
     }
