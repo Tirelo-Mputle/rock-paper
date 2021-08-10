@@ -1,3 +1,17 @@
 body {
-    background-color: green;
+    background-color: rgb(210, 233, 210);
+}
+
+.container {
+    display: flex;
+    border: 2px solid gray;
+    justify-content: space-around;
+    padding: 7%
+}
+.player-selection {
+    border: 2px solid gray;;
+    background-color: rgb(250, 227, 174);
+    padding: 3%;
+    
+    
 }

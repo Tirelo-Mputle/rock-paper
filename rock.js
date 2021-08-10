@@ -100,17 +100,9 @@ function finalScore(compScore, playerScore) {
 }
 
 //RUN THE GAME FIVE TIMES
-function gameFive() {
-scoreKeeper(gameResult); 
-finalScore(compScore, playerScore);
-scoreKeeper(gameResult); 
-finalScore(compScore, playerScore);
-scoreKeeper(gameResult); 
-finalScore(compScore, playerScore);
-scoreKeeper(gameResult); 
-finalScore(compScore, playerScore);
+function gameOn() {
 scoreKeeper(gameResult); 
 finalScore(compScore, playerScore);
 }
 
-gameFive();
+gameOn();
